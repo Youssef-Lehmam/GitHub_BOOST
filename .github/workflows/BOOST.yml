@@ -81,8 +81,3 @@ jobs:
           force: true
           directory: "."
           github_token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Adds 1 more profile view
-        uses: gpuliyar/check-url-action@v1.0.1
-        with:
-          url: https://gpvc.arturio.dev/${{ secrets.USERNAME }}
-          retry-count: 5
